@@ -205,3 +205,22 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+# --- EmotiTune Project Custom Ignores ---
+# Ignore datasets and large files
+data/
+music_data/
+datasets/
+models/checkpoints/
+*.h5
+*.pt
+*.pkl
+*.joblib
+
+# Ignore virtual environment and cache
+venv/
+__pycache__/
+*.pyc
+.DS_Store
+
+# Ignore Streamlit temporary files
+.streamlit/
